@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  text-align: center;
+  height: 100vh;
+  padding-top: 100px;
+  background: linear-gradient(135deg, #74c0fc, #ffd43b);
+  transition: 0.4s;
+}
+
+.dark {
+  background: linear-gradient(135deg, #1e1e1e, #333);
+  color: white;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+h2 {
+  margin-bottom: 30px;
+}
+
+.buttons button {
+  margin: 10px;
+  padding: 12px 22px;
+  font-size: 16px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  background: white;
+  transition: 0.2s;
+}
+
+.buttons button:hover {
+  transform: scale(1.1);
+  background: #333;
+  color: white;
+}
+
+.toggle {
+  margin-top: 20px;
+  padding: 10px 20px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
+
+.history {
+  margin-top: 20px;
+  font-size: 28px;
+}

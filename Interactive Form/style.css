@@ -1,0 +1,107 @@
+body{
+
+font-family: "Times New Roman", serif;
+
+background-color: beige;
+
+background-image: url("https://images.unsplash.com/photo-1521791136064-7986c2920216");
+
+background-size: cover;
+
+background-position: center;
+
+padding: 40px;
+
+color: black;
+
+}
+
+.form-container{
+
+background: rgba(245, 245, 220, 0.95);
+
+padding: 30px;
+
+width: 420px;
+
+margin: auto;
+
+border-radius: 10px;
+
+box-shadow: 0px 5px 15px rgba(0,0,0,0.3);
+
+}
+
+h1{
+
+text-align: center;
+
+margin-bottom: 20px;
+
+}
+
+label{
+
+font-weight: bold;
+
+}
+
+input{
+
+width: 100%;
+
+padding: 8px;
+
+margin-top: 5px;
+
+margin-bottom: 10px;
+
+border: 1px solid #999;
+
+border-radius: 4px;
+
+}
+
+button{
+
+width: 100%;
+
+padding: 10px;
+
+background: black;
+
+color: beige;
+
+border: none;
+
+font-size: 16px;
+
+cursor: pointer;
+
+}
+
+button:hover{
+
+background: #333;
+
+}
+
+.error{
+
+color: red;
+
+font-size: 13px;
+
+}
+
+#success{
+
+color: green;
+
+font-weight: bold;
+
+text-align: center;
+
+margin-top: 10px;
+
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Student Manager</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h1>Student Manager</h1>
+
+<button onclick="loadStudents()">Load Students From API</button>
+
+<h2>Add Student</h2>
+
+<input id="name" placeholder="Student Name">
+<input id="m1" placeholder="Mark 1">
+<input id="m2" placeholder="Mark 2">
+<input id="m3" placeholder="Mark 3">
+
+<button onclick="addStudent()">Add Student</button>
+
+<h2>Student List</h2>
+
+<table border="1">
+
+<thead>
+<tr>
+<th>Name</th>
+<th>Marks</th>
+<th>Average</th>
+<th>Grade</th>
+<th>Action</th>
+</tr>
+</thead>
+
+<tbody id="studentTable"></tbody>
+
+</table>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
